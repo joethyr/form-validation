@@ -4,3 +4,12 @@
 form > * {
   margin: 5px;
 }
+
+input:invalid {
+  /* color: red; */
+  border: red 1px solid;
+}
+
+input:focus:invalid {
+  border: 1px solid black;
+}
